@@ -1,0 +1,196 @@
+nav a
+{
+	font-family: Montserrat;
+	font-weight: 500;
+	font-style: Regular;
+	font-size: 18px;
+	line-height: 100%;
+
+	color: #B0A8B9 !important;
+}
+
+nav
+{
+	background: #4B4453;
+}
+
+h1
+{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 64px;
+	line-height: 72px;
+
+	color: #fefedf;
+}
+
+h2
+{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-style: Regular;
+	font-size: 30px;
+	line-height: 60px;
+
+	color: #fefedf;
+}
+
+h3
+{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-style: Regular;
+	font-size: 24px;
+	line-height: 60px;
+
+	color: #fefedf;
+}
+
+
+p
+{
+	font-family: Montserrat;
+	font-weight: 300;
+	font-style: Regular;
+	font-size: 24px;
+	line-height: 40px;
+
+	color: #fefedf;
+}
+
+footer
+{	
+	font-family: Montserrat;
+	font-style: Regular;
+	font-size: 18px;
+
+	color: #fefedf !important;
+	background: #4B4453;
+}
+
+iframe
+{
+	height: 450px;
+}
+
+#profile-photo
+{
+	border: 5px solid #4B4453;
+}
+
+#landing
+{
+	background: linear-gradient(rgba(176, 168, 185, 0.8), rgba(176, 168, 185, 0.8)), url("./images/landing-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#projects
+{
+	background: linear-gradient(rgba(255,128,102, 0.5), rgba(255,128,102, 0.5)), url("./images/projects-bg.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#tools
+{
+	background: linear-gradient(rgba(77,128,118, 0.5), rgba(77,128,118, 0.5)), url("./images/tools-bg.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#contact
+{
+	background: linear-gradient(rgba(250,204,255, 0.4), rgba(250,204,255, 0.7)), url("./images/contact-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#tools img
+{
+	width: 5rem;
+	height: auto;
+	display: block;
+}
+
+.card
+{
+	width: 23rem;
+
+	background: #d5cabd;
+}
+
+.card-text
+{
+	font-family: Montserrat;
+	font-weight: 300;
+	font-style: Regular;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #4b4453;
+
+}
+
+.linkedin-img
+{
+	max-width: 3rem;
+	width: 100%;
+	height: auto;
+	display: block;
+	filter: brightness(0) invert(0);
+} 
+
+.kalibrr-img, .indeed-img
+{
+	max-width: 5rem;
+	width: 100%;
+	height: auto;
+	display: block;
+	filter: brightness(0) invert(0);
+}
+
+.modal h5
+{
+	font-family: Montserrat;
+	font-weight: 500;
+	font-style: Regular;
+	font-size: 24px;
+	line-height: 60px;
+
+	color: #4B4453 !important;
+}
+
+.modal p
+{
+	font-family: Montserrat;
+	font-weight: 300;
+	font-style: Regular;
+	font-size: 18px;
+	line-height: 60px;
+
+	color: #4B4453 !important;
+}
+
+#contact input, #contact label, #contact textarea
+{
+	font-family: Montserrat;
+	font-weight: 500;
+	font-style: Regular;
+	font-size: 16px;
+	line-height: 30px;
+
+	color: #4B4453 !important;
+}
+
+#contact label
+{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-style: Regular;
+	font-size: 16px;
+	line-height: 30px;
+
+	color: #4B4453 !important;
+}
