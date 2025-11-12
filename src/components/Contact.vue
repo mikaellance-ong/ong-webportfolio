@@ -26,7 +26,7 @@
 	                    	<a href="https://www.kalibrr.com/home" target="_blank"><img class="kalibrr-img img-fluid justify-content-center" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Kalibrr_Logo.png"></a>
 	                    	<a href="https://ph.indeed.com/?r=us" target="_blank"><img class="indeed-img img-fluid justify-content-center" src="https://1000logos.net/wp-content/uploads/2023/01/Indeed-Logo-2004.png"></a>
 	                    </div>
-	                    <button type="button" class="btn btn-dark p-2 order-1 order-md-2" data-bs-toggle="modal" data-bs-target="#thanksModal" :disabled="isLoading">{{ isLoading ? "Sending..." : "Send Email"}}</button>
+	                    <button type="submit" class="btn btn-dark p-2 order-1 order-md-2" data-bs-toggle="modal" data-bs-target="#thanksModal" :disabled="isLoading">{{ isLoading ? "Sending..." : "Send Email"}}</button>
 	                    <div class="modal" id="thanksModal" tabindex="-1">
 				  			<div class="modal-dialog">
 				    			<div class="modal-content">
