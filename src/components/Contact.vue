@@ -10,15 +10,15 @@
 				<form class="bg-none p-3 rounded justify-content-start pe-md-5 w-75 mx-auto mx-md-0" @submit.prevent="submitForm">
 					<div class="form-group mb-2">
 						<label class="text-dark" for="name">Name</label>
-						<input type="text" class="form-control" id="name" placeholder="First Name M.I. Last Name" v-model="name">
+						<input type="text" class="form-control" id="name" placeholder="First Name M.I. Last Name" v-model="name" required>
 					</div>
 					<div class="form-group mb-2">
 						<label class="text-dark" for="email">Email address</label>
-						<input type="email" class="form-control" id="email" placeholder="Email" v-model="email">
+						<input type="email" class="form-control" id="email" placeholder="Email" v-model="email" required>
 	                </div>
 	                <div class="form-group mb-2">
 	                    <label class="text-dark" for="message">Message</label>
-	                    <textarea class="form-control" id="message" rows="7" placeholder="Message" v-model="message"></textarea>
+	                    <textarea class="form-control" id="message" rows="7" placeholder="Message" v-model="message" required></textarea>
 	                </div>
 	                <div class="d-flex flex-column flex-md-row justify-content-between align-items-center p-2">
 	                    <div class="d-flex gap-3 align-items-center order-2 order-m-1 p-2">
