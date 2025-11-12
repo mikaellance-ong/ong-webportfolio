@@ -27,27 +27,28 @@
 	                    	<a href="https://ph.indeed.com/?r=us" target="_blank"><img class="indeed-img img-fluid justify-content-center" src="https://1000logos.net/wp-content/uploads/2023/01/Indeed-Logo-2004.png"></a>
 	                    </div>
 	                    <button type="submit" class="btn btn-dark p-2 order-1 order-md-2" data-bs-toggle="modal" data-bs-target="#thanksModal" :disabled="isLoading">{{ isLoading ? "Sending..." : "Send Email"}}</button>
-	                    <div class="modal" id="thanksModal" tabindex="-1">
-				  			<div class="modal-dialog">
-				    			<div class="modal-content">
-				      				<div class="modal-header">
-				        				<h5 class="modal-title">Thank you for sending an email!</h5>
-				        				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				      				</div>
-				      				<div class="modal-body">
-				        				<p>I will respond to you soon.</p>
-				      				</div>
-					      			<div class="modal-footer">
-					        			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					      			</div>
-					    		</div>
-					  		</div>
-						</div>
+	                    
 	                </div>
 	                <div class="d-flex justify-content-end mt-2">
 	                	<div ref="recaptchaContainer"></div>
 	                </div>
 	            </form>
+	            <div class="modal" id="thanksModal" tabindex="-1">
+	            	<div class="modal-dialog">
+	            		<div class="modal-content">
+	            			<div class="modal-header">
+	            				<h5 class="modal-title">Thank you for sending an email!</h5>
+	            				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	            			</div>
+	            			<div class="modal-body">
+	            				<p>I will respond to you soon.</p>
+	            			</div>
+	            			<div class="modal-footer">
+	            				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+	            			</div>
+	            		</div>
+	            	</div>
+	            </div>
 			</div>
 		</div>
 	</section>
