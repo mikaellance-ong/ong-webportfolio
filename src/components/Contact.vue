@@ -7,7 +7,7 @@
 			</div>
 
 			<div class="col-12 col-md-6">
-				<form class="bg-none p-3 rounded justify-content-start pe-md-5 w-75 mx-auto mx-md-0">
+				<form class="bg-none p-3 rounded justify-content-start pe-md-5 w-75 mx-auto mx-md-0" @submit.prevent="submitForm">
 					<div class="form-group mb-2">
 						<label class="text-dark" for="name">Name</label>
 						<input type="text" class="form-control" id="name" placeholder="First Name M.I. Last Name">
@@ -69,12 +69,6 @@
 	const isLoading = ref(false);
 
 	const submitForm = async() => {
-
-		if(!recaptchaToken.value)
-		{
-			notyf.error('Please verify that you are not a robot.');
-			return;
-		}
 
 		isLoading.value = true;
 
