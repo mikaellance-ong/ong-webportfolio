@@ -22,7 +22,7 @@
 	                </div>
 	                <div class="d-flex flex-column flex-md-row justify-content-between align-items-center p-2">
 	                    <div class="d-flex gap-3 align-items-center order-2 order-m-1 p-2">
-	                    	<a href="https://www.linkedin.com/" target="_blank"><img class="linkedin-img img-fluid justify-content-center" src="./images/linkedin-logo.png"></a>
+	                    	<a href="https://www.linkedin.com/" target="_blank"><img class="linkedin-img img-fluid justify-content-center" src="/images/linkedin-logo.png"></a>
 	                    	<a href="https://www.kalibrr.com/home" target="_blank"><img class="kalibrr-img img-fluid justify-content-center" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Kalibrr_Logo.png"></a>
 	                    	<a href="https://ph.indeed.com/?r=us" target="_blank"><img class="indeed-img img-fluid justify-content-center" src="https://1000logos.net/wp-content/uploads/2023/01/Indeed-Logo-2004.png"></a>
 	                    </div>
